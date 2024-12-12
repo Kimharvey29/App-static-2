@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="./index.css">
+</head>
+<body>
+    <section id="nav-bar">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container-fluid py-1 px-5">
+                <div id="logo" class="mt-2">
+                    <p>CodeSpark</p>
+                </div>
+                <button id="hamburger" class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span  class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
+                    <ul class="d-grid d-flex gap-2 navbar-nav text-light">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#categories-section">Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#tools">Tools</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <section id="home">
+        <div>
+            <div class="home-content">
+                <h1>Welcome to <span>CodeSpark</span></h1>
+                <h4>Ignite Your Tech Career. Learn In-Demand Skills. Build Your Future.</h4>
+            </div>
+        </div>
+    </section>
+
+    <section id="introduction" class="py-5">
+        <div class="container">
+            <div class="text-center">
+                <h2>Get Started with CodeSpark</h2>
+                <p>Our platform offers comprehensive learning paths for frontend, backend, and full-stack development.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Section -->
+    <section id="featured" class="py-5">
+        <div class="container">
+            <div class="text-center">
+                <h2>Featured Courses</h2>
+                <p>Explore the best courses curated to help you excel in your career.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="categories-section">
+        <div id="categories"class="container-fluid py-5">
+            <div class="text-center py-5">
+                <h1 class="title text-dark">Courses</h1>
+            </div>
+            <div class="row text-center d-flex justify-content-around">
+                <div class="project col-10 col-lg-3 mb-3">
+                    <img src="./images/categories/front.jpg" class="card-img-top img-fluid">
+                    <div class="card-body">
+                        <h5 class="card-title">Frontend</h5>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod repudiandae corrupti quidem culpa, quibusdam accusantium quasi, quis aliquam quae delectus consequatur architecto...</p>
+                    </div>
+                </div>
+                <div class="project col-10 col-lg-3 mb-3">
+                    <img src="./images/categories/back.jpg" class="card-img-top img-fluid">
+                    <div class="card-body">
+                        <h5 class="card-title">Backend</h5>
+                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, mollitia praesentium. Excepturi modi necessitatibus aliquam...</p>
+                    </div>
+                </div>
+                <div class="project col-12 col-lg-3 mb-3">
+                    <img src="./images/categories/Full-Stack-Developer.jpg" class="card-img-top img-fluid">
+                    <div class="card-body">
+                        <h5 class="card-title">Fullstack</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores quas aperiam ducimus odit tenetur dignissimos sunt ratione...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="resources" class="container">
+          <div class="text-center text-dark">
+              <h2>Sample Resources</h2>
+              <p>Here are some free resources to get you started on your learning journey.</p>
+          </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container-fluid">
+            <div class="text-center mb-5">
+                <h1 class="title">About CodeSpark</h1>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <p>At <span>CodeSpark</span>, we believe in the power of technology to transform lives. Our mission is to empower individuals with the skills they need to excel in the ever-changing tech landscape...</p>
+                </div>
+            </div>
+            <div class="container">
+              <div class="text-center">
+                  <h2>Our Mission</h2>
+                  <p>We strive to provide accessible, high-quality education that prepares students for careers in the tech industry.</p>
+              </div>
+           </div>
+           <div class="container">
+            <div class="text-center">
+                <h2>Contact Us</h2>
+                <p>If you have any questions or need assistance, reach out to us!</p>
+                <p>Email: support@codespark.com</p>
+            </div>
+           </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

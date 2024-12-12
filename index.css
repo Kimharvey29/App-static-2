@@ -1,0 +1,208 @@
+/* Global Reset and Font/Color */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    color: #fbfeeb;
+}
+
+/* Background color for body */
+body {
+    background-color: #074799;
+}
+
+/* Navigation Bar */
+#nav-bar {
+    background-color: #001044 !important;
+    font-weight: 700;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+}
+
+#logo p {
+    color: #fcc006;
+    font-size: 30px;
+}
+h2 {
+    color:#fcc006;    
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.nav-item a:hover,
+.nav-item a:active {
+    color: #fcc006 !important;
+}
+
+#nav-bar li {
+    color: #ffffff;
+}
+
+/* Home Section */
+#home {
+    background-image: url('./images/home/bg.jpg');
+    background-color: #e4e4e4;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 50px;
+    position: relative;
+    color: white;
+    text-align: left;
+}
+
+.home-content {
+    position: relative;
+    z-index: 2;
+    max-width: 700px;
+    padding: 20px;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+}
+
+.home-content h1 {
+    font-size: 4rem;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.home-content h4 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.home-content span {
+    color: #fcc006;
+}
+
+/* Courses Section */
+#categories-section {
+    padding: 80px 0;
+    background-color: #fff;
+}
+
+.project {
+    background-color: #001044;
+    border-radius: 20px;
+    transition: 0.5s ease;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    background-color: #001044;
+    border-radius: 20px;
+}
+
+.project:hover {
+    transform: scale(1.08);
+}
+
+.project h5 {
+    color: #fcc006;
+    font-size: 30px;
+}
+
+.project p {
+    color: #fff;
+}
+
+/* About Section */
+.about {
+    padding: 80px 0;
+    background-color: #001044;
+    color: #fff;
+}
+
+#about .title {
+    font-size: 3rem;
+    color: #fcc006;
+}
+
+#about p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #001044;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1rem;
+    color: #f4f4f4;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #home {
+        padding-left: 20px;
+        text-align: center;
+    }
+
+    .home-content h1 {
+        font-size: 3rem;
+    }
+
+    .home-content h4 {
+        font-size: 1.2rem;
+    }
+
+    .project {
+        margin-bottom: 20px;
+    }
+
+    .project img {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .project h5 {
+        font-size: 24px;
+    }
+
+    .home-content h1 {
+        font-size: 2rem;
+    }
+
+    .home-content h4 {
+        font-size: 1rem;
+    }
+
+    footer p {
+        font-size: 0.9rem;
+    }
+
+    #logo p {
+        font-size: 25px;
+    }
+}
+
+#resources h2 {
+    font-weight: bold;
+    color: #001044;
+
+}
+#resources p {
+    color: #001044;
+
+}
